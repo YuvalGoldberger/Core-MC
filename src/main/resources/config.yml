@@ -1,0 +1,3 @@
+join-message: "Welcome &d&l%player% &rto the server."
+no-perms-message: "&cSorry %player%, you don't have permissions to use this command."
+no-perms-next-message: "You need the permission &c%permission%&r. If you think there's a mistake please contact an admin."

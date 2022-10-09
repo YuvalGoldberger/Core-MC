@@ -1,0 +1,45 @@
+name: Core
+version: ${project.version}
+main: online.israelmc.core.Core
+api-version: 1.18
+authors: [ Prime ]
+commands:
+  god:
+    description: Turns the user to a god. (Invincible)
+    usage: /<command>
+    aliases:
+      - godmode
+  feed:
+    description: Sets saturation to max.
+    usage: /<command>
+    aliases:
+      - saturate
+      - eat
+  heal:
+    description: Heals a user.
+    usage: /<command>
+    aliases:
+      - health
+      - hp
+  enderchest:
+    description: Open an enderchest.
+    usage: /<command>
+    aliases:
+      - ec
+      - endersee
+      - openender
+      - ender
+  gmc:
+    description: Set gamemode to CREATIVE
+    usage: /<command>
+    aliases:
+      - gamemodec
+      - gmcreative
+      - gm1
+  gms:
+    description: Set gamemode to SURVIVAL
+    usage: /<command>
+    aliases:
+      - gamemodes
+      - gmsurvival
+      - gm0
