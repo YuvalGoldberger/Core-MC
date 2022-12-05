@@ -1,6 +1,6 @@
 name: Core
 version: ${project.version}
-main: online.israelmc.core.Core
+main: me.yuval.core.Core
 api-version: 1.18
 authors: [ Prime ]
 commands:
@@ -43,3 +43,6 @@ commands:
       - gamemodes
       - gmsurvival
       - gm0
+  nick:
+    description: Sets a new nickname
+    usage: /<command>

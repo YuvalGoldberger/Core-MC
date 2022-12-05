@@ -26,6 +26,7 @@ public final class Core extends JavaPlugin {
         getCommand("enderchest").setExecutor(new EnderChest());
         getCommand("gmc").setExecutor(new gmc());
         getCommand("gms").setExecutor(new gms());
+        getCommand("nick").setExecutor(new Nick());
 
     }
 

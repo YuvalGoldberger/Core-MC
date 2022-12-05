@@ -4,7 +4,6 @@ import me.yuval.core.Core;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
-import static me.yuval.core.Core.getPlugin;
 
 public class Permissions {
     public Permissions() {
